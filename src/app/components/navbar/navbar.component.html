@@ -1,0 +1,24 @@
+<nav class="navbar navbar-expand-sm navbar-dark">
+
+    <a class="navbar-brand" href="#">
+        <img 
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/1200px-Angular_full_color_logo.svg.png" 
+            width="30" 
+            height="30" 
+            alt="Angular"
+        >
+    </a>
+
+    <a class="navbar-brand" href="#">GOTY</a>
+
+    <div class="collapse navbar-collapse" >
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item" routerLinkActive="active">
+                <a class="nav-link" [routerLink]="['/inicio']" >Inicio</a>
+            </li>
+            <li class="nav-item" routerLinkActive="active">
+                <a class="nav-link" [routerLink]="['/goty']">Votar</a>
+            </li>
+        </ul>
+    </div>
+</nav>
